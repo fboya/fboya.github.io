@@ -1,4 +1,4 @@
-# Get started building your personal website - NEW VERSioN
+# Get started building your personal website - NEW VERSION
 
 ### Showcase your software development skills
 
