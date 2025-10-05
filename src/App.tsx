@@ -181,17 +181,23 @@ function App() {
             I'm always interested in hearing about new projects and opportunities.
           </p>
           <div className="flex gap-6 justify-center">
-            <Button size="lg" variant="outline" className="border-slate-700 text-slate-300 hover:bg-slate-800">
-              <Github className="mr-2 h-5 w-5" />
-              GitHub
+            <Button size="lg" variant="outline" className="border-slate-700 text-slate-300 hover:bg-slate-800" asChild>
+              <a href="https://github.com/fboya" target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-5 w-5" />
+                GitHub
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-slate-700 text-slate-300 hover:bg-slate-800">
-              <Linkedin className="mr-2 h-5 w-5" />
-              LinkedIn
+            <Button size="lg" variant="outline" className="border-slate-700 text-slate-300 hover:bg-slate-800" asChild>
+              <a href="https://www.linkedin.com/in/fernandoboya/" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="mr-2 h-5 w-5" />
+                LinkedIn
+              </a>
             </Button>
-            <Button size="lg" className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600">
-              <Mail className="mr-2 h-5 w-5" />
-              Email Me
+            <Button size="lg" className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600" asChild>
+              <a href="mailto:fernando.boya@gmail.com">
+                <Mail className="mr-2 h-5 w-5" />
+                Email Me
+              </a>
             </Button>
           </div>
         </div>
